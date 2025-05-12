@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{padding: 0;margin: 0;box-sizing: border-box;}    
+    </style>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <!-- 登录页面 -->
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form action="">
+                <!-- 邮箱模块 -->
+                <div class="email-module module">
+                    <p>Email</p>
+                    <input type="email" placeholder="Email">
+                    <p class="error-message"></p>
+                </div>
+                <!-- 密码模块 -->
+                <div class="password-module module">
+                    <p>Password</p>
+                    <input type="password" placeholder="Password">
+                </div>
+                <!-- 忘记密码模块 -->
+                <div class="forgot-password-module">
+                    <!-- 错误信息模块 -->
+                    <p class="error-message"></p>
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                </div>
+                <!-- 登录按钮 -->
+                <button type="submit" class="login-button">LOGIN</button>
+                <!-- 注册链接 -->
+                <p class="register-link">Don't have an account? <a href="#">Sign up</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
