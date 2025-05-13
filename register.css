@@ -1,0 +1,61 @@
+/* 让注册页面居中 */
+.register{
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 450px;
+    background-color: #9e9a9a;
+}
+
+.register-box{
+    width: 90%;
+    height: 96%;
+    background-color: #fff;
+    margin:2% auto;
+}
+
+.register-box h2{
+    text-align: center;
+}
+/* form样式 */
+.re-content{
+    display: flex;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-evenly; 
+}
+
+.re-content input{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+.re-content button{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: blue;
+    color: #fff;
+}
+
+/* 错误信息模块 */
+.error-message{
+    color: red;
+    font-size: 12px;
+}
+
+/* 登录链接 */
+.Login-link{
+    text-align: center;
+}
+
+.Login-link a{
+    text-decoration: none;
+}
+
